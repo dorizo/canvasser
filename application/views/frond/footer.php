@@ -1,19 +1,25 @@
 
     <!-- App Bottom Menu -->
     <div class="appBottomMenu">
-        <a href="#" class="item active">
+        <a href="<?=base_url("home")?>"  class="item">
             <div class="col">
                 <ion-icon name="home-outline"></ion-icon>
                 <strong>Home</strong>
             </div>
         </a>
-        <a href="#" class="item">
+        <a href="<?=base_url("home/reff")?>" class="item">
             <div class="col">
                 <ion-icon name="location-outline"></ion-icon>
-                <strong>Nearby</strong>
+                <strong>Data Reff</strong>
             </div>
         </a>
-        <a href="#" class="item">
+        <a href="<?=base_url("history")?>"class="item">
+            <div class="col">
+                <ion-icon name="book-outline"></ion-icon>
+                <strong>history</strong>
+            </div>
+        </a>
+        <a href="<?=base_url("setting")?>" class="item">
             <div class="col">
                 <ion-icon name="apps-outline"></ion-icon>
                 <strong>Setting</strong>
@@ -35,7 +41,6 @@
                         </div>
                         <div class="in">
                             <strong>Sebastian Doe</strong>
-                            <div class="text-muted">4029209</div>
                         </div>
                         <a href="#" class="btn btn-link btn-icon sidebar-close" data-bs-dismiss="modal">
                             <ion-icon name="close-outline"></ion-icon>
@@ -47,46 +52,17 @@
                     <div class="listview-title mt-1">Menu</div>
                     <ul class="listview flush transparent no-line image-listview">
                         <li>
-                            <a href="index.html" class="item">
+                            <a href="<?=base_url("history")?>" class="item">
                                 <div class="icon-box bg-primary">
                                     <ion-icon name="pie-chart-outline"></ion-icon>
                                 </div>
                                 <div class="in">
-                                    Overview
-                                    <span class="badge badge-primary">10</span>
+                                    Data Sertifikat
+                                    <!-- <span class="badge badge-primary">10</span> -->
                                 </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="app-pages.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="document-text-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    Pages
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="app-components.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="apps-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    Components
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="app-cards.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="card-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    My Cards
-                                </div>
-                            </a>
-                        </li>
+                        
                     </ul>
                     <!-- * menu -->
                     <!-- * send money -->

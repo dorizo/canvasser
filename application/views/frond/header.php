@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title>Finapp</title>
+    <title>Canvasser Platform</title>
     <meta name="description" content="Finapp HTML Mobile Template">
     <meta name="keywords"
         content="bootstrap, wallet, banking, fintech mobile template, cordova, phonegap, mobile, html, responsive" />
@@ -34,16 +34,11 @@
             </a>
         </div>
         <div class="pageTitle">
-            Halal
+            Halal Canvasser
         </div>
         <div class="right">
-            <a href="app-notifications.html" class="headerButton">
-                <ion-icon class="icon" name="notifications-outline"></ion-icon>
-                <span class="badge badge-danger">4</span>
-            </a>
-            <a href="app-settings.html" class="headerButton">
+            <a href="<?=base_url()?>setting" class="headerButton">
                 <img src="<?=base_url()?>assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged w32">
-                <span class="badge badge-danger">6</span>
             </a>
         </div>
     </div>

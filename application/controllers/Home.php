@@ -29,4 +29,10 @@ class Home extends CI_Controller {
 			$this->load->view('frond/footer');
 		}
 	}
+	public function reff(){
+		$data["titlepage"] = "HOME";
+		$this->load->view('frond/header');
+		$this->load->view('user/ref', $data);
+		$this->load->view('frond/footer');
+	}
 }
