@@ -120,7 +120,7 @@
                 </div>
             </li>
             <li>
-                <a href="#" class="item">
+                <a href="<?=base_url("login/logout")?>" class="item">
                     <div class="in">
                         <div>Log out all devices</div>
                     </div>
